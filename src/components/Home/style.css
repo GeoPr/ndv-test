@@ -1,0 +1,37 @@
+.home {
+}
+.home__body {
+  display: grid;
+  row-gap: 30px;
+}
+.home__list {
+  display: grid;
+  row-gap: 15px;
+}
+.home__item {
+  background: rgb(189, 189, 189);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.home__add-button {
+  margin: 0px 10px 0px 0px;
+  height: 40px;
+  padding: 0px 10px;
+  background: rebeccapurple;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.5s ease 0s;
+  text-transform: uppercase;
+}
+.home__add-button:hover {
+  background: rgb(63, 23, 104);
+}
+.home__favorites {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px
+}
